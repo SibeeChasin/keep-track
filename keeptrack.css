@@ -1,0 +1,154 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    border:1px solid transparent;
+    margin:30px 50px 20px;
+    padding:30px 50px 10px;
+    height:auto;
+    width:auto;
+    border-radius:40px 40px;
+    background-color:white;
+}
+.small{
+    width:700px;
+    border-radius:20px 10px;
+    box-shadow:2px 1px slategray;
+    font-size:25px;
+}
+.fix{
+    font-size:25px;
+}
+.smaller{
+    font-size:40px;
+    color:lightblue;
+} 
+ul{
+    background-color: slategrey;
+    text-align: right;
+    border-radius: 10px 20px;
+    height:auto;
+    width: auto;
+    font-size:30px;
+    box-shadow: 2px 2px grey;
+}
+ul li{
+    display:inline-block;
+    border:1px solid transparent;
+    padding:10px 8px;
+    border-radius:10px 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: lightblue;
+}
+button{
+    text-decoration: none;
+    color: lightblue;
+}
+input[type=text],input[type=password],input[type=tel],input[type=email],input[type=number]
+{
+    border-radius:10px 5px;
+    width:400px;
+    height:40px;
+    font-size:20px;
+}
+input[type=text]:focus{
+    background-color:lightblue;
+    border:3px solid slategrey;
+}
+input[type=password]:focus{
+    background-color:lightblue;
+    border:3px solid slategrey;
+}
+input[type=tel]:focus{
+    background-color:lightblue;
+    border:3px solid slategrey;
+}
+input[type=email]:focus{
+    background-color:lightblue;
+    border:3px solid slategrey;
+}
+input[type=number]:focus{
+    background-color:lightblue;
+    border:3px solid slategrey;  
+}
+.enter{
+    height:50px;
+    width:100px;
+    border-radius:10px 5px; 
+    background-color: slategrey;
+    font-size:25px;
+    color:lightblue;
+	text-decoration:none;
+}
+a:link{
+ color:slategrey;
+}
+a:visited{
+color:black;
+}
+a:hover{
+    color:skyblue;
+}
+a:active{
+color:lavender;
+}
+#best{
+ height:60px;
+ width:150px;
+ float:right;
+ border-radius:10px 5px; 
+    background-color: slategrey;
+    font-size:25px;
+    color:lightblue;
+}
+ul li.active a{
+border-bottom:1px solid black;
+}
+#better{
+ height:60px;
+ width:150px;
+ border-radius:10px 5px; 
+ background-color: slategrey;
+ font-size:25px;
+ color:lightblue;
+}
+#final{
+
+    height:40px;
+    width:120px;
+    border-radius:10px 5px; 
+    background-color: slategrey;
+    font-size:25px;
+    color:lightblue;  
+    text-decoration: none;
+    float:right;
+    text-align:center;
+}
+#wrong{
+width:50%;
+margin:5px auto;
+height:35px;
+border: 1px solid slategrey;
+background:lightblue;
+color:black;
+text-align:center;
+padding-top:10px;
+font-size:30px;
+}
+.thin{
+font-size:25px;
+}
+.best{
+    font-size:40px;
+}
+footer{
+    background-color:slategrey;
+    font-size:20px;
+    text-align: center;
+    border-radius:10px 20px;
+    color:lightblue;
+
+}
